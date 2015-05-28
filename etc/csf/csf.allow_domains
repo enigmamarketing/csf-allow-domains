@@ -13,6 +13,5 @@
 # can still be blocked. If you do not want lfd to block an IP address you must
 # add it to csf.ignore
 
-2b9570bc026e6ac2ae2d623da0dafa10dedbc3c4.rackspaceclouddb.com # test comment
-github.com
+github.com # test comment
 bitbucket.org

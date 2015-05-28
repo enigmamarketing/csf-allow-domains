@@ -7,3 +7,4 @@ Essential: no
 Depends: python
 Maintainer: Enigma Marketing
 Description: Resolves domain names and adds them to csf.allow
+
