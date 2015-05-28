@@ -1,0 +1,9 @@
+Package: csf-allow-domains
+Version: 0.1
+Section: utils
+Priority: optional
+Architecture: all
+Essential: no
+Depends: python
+Maintainer: Enigma Marketing
+Description: Resolves domain names and adds them to csf.allow

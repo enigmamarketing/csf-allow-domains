@@ -1,0 +1,18 @@
+###############################################################################
+# Copyright 2015, Enigma Marketing Services
+# URL: http://enigma-marketing.co.uk
+# Email: admin@enigma-marketing.co.uk
+###############################################################################
+# The following IP addresses will be allowed through iptables.
+# One domain name per line.
+# Only list domain names, not IP addresses
+#
+# Just basic supports domain names for now. No additional settings
+#
+# Note: IP addressess listed in this file will NOT be ignored by lfd, so they
+# can still be blocked. If you do not want lfd to block an IP address you must
+# add it to csf.ignore
+
+2b9570bc026e6ac2ae2d623da0dafa10dedbc3c4.rackspaceclouddb.com # test comment
+github.com
+bitbucket.org
