@@ -1,0 +1,5 @@
+/var/log/csf-allow-domains.log {
+    weekly
+    rotate 1
+    compress
+}
