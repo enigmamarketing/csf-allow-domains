@@ -26,7 +26,7 @@
 
 <p>This happened to us while doing a stress test that left us with no database access. If it would have happened on production, caused by user traffic, it would be a serious issue.</p>
 
-<p>But firewalls enjoy working with IPs not domain names... Here comes this module. With it you can list domain names that will get resolved and added to the CSF settings file. It does not delete any domains from the file so some spring clean may be needed from time to time. Some domains may return different sets of A records throughout time, even if they are all valid servers at any given moment, eg. github.</p>
+<p>But firewalls enjoy working with IPs, not domain names... Here comes this module. With it you can list domain names that will get resolved and added to the CSF settings file. It does not delete any domains from the file so some spring clean may be needed from time to time. Some domains may return different sets of A records throughout time, even if they are all valid servers at any given moment, eg. github.</p>
 
 <h1>
 <a id="install" class="anchor" href="#install" aria-hidden="true"><span class="octicon octicon-link"></span></a>Install</h1>
@@ -37,7 +37,7 @@
 <a id="debian-package" class="anchor" href="#debian-package" aria-hidden="true"><span class="octicon octicon-link"></span></a>Debian Package</h2>
 
 <ul>
-<li>download <a href="csf-allow-domains.deb">csf-allow-domains.deb</a>
+<li>download <a href="https://github.com/enigmamarketing/csf-allow-domains/blob/master/csf-allow-domains.deb?raw=true">csf-allow-domains.deb</a>
 </li>
 <li>dpkg -i ./csf-allow-domains.deb</li>
 </ul>
@@ -45,7 +45,7 @@
 <h2>
 <a id="manual-install" class="anchor" href="#manual-install" aria-hidden="true"><span class="octicon octicon-link"></span></a>Manual Install</h2>
 
-<p>All the relevant code can be found in <a href="/usr/local/csf/bin/csf-allow-domains">./usr/local/csf/bin/csf-allow-domains</a>
+<p>All the relevant code can be found in <a href="https://github.com/enigmamarketing/csf-allow-domains/tree/master/usr/local/csf/bin/csf-allow-domains">./usr/local/csf/bin/csf-allow-domains</a>
 Just copy those files to your system, update the config.py and use whatever strategy you want to keep the python script going.</p>
 
       <footer class="site-footer">
